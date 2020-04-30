@@ -12,13 +12,11 @@
 </body>
 </html>
 <?php
-
-if 
-(isset($_POST['submit']))
+if (isset($_POST['submit'])){
 	
 	$cijfer_1 = $_POST['cijfer_1'];
 	$cijfer_2 = $_POST['cijfer_2'];
-
+}
 if ($cijfer_1 == $cijfer_2) {
 echo 'Het antwoord is: ' .  $cijfer_1 * $cijfer_2; 
 }
